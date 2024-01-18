@@ -13,6 +13,7 @@
       "matchPackagePatterns": [
         "eslint"
       ],
+      "automerge": true,
       "groupName": "eslint"
     },
     {
