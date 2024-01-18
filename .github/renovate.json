@@ -28,7 +28,8 @@
       "matchPackagePatterns": [
         "fastify"
       ],
-      "groupName": "fastify"
+      "groupName": "fastify",
+      "automerge": true
     },
     {
       "automerge": true,
