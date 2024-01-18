@@ -46,14 +46,8 @@
   "patch": {
     "automerge": true
   },
-  "hostRules": [
-    {
-      "matchHost": "https://npm.pkg.github.com/",
-      "hostType": "npm",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolARAAjZ8U5iXk4KWjwz65kUXw6f32LdOhXdPmHs8Qp46v0ccRh13ohywshn1Y0FcsUSJIDYbQ23XOdoKmZsooMi8xXSgE7Uy5rFC7q8o7y8Yjhqxq/Ao+hKrER+e80UYXAY7cQoCgdfclDg/sKGXahGwnnY6NvAaouYSbETrwFZzw/q0NEHVdEPcEh48MMLJSQfewDuPcCuP1y5csyzYWYcXBisb79O5nHNSPt5eT2nFW8qQvwTJXmpx1+k7Shg1X95EC8S3OOfx3V4DDcHdnAVD0p21d7eVBhsuif3+GPpYiPpN6XF8djBuvpcqwZ5Os8xUfDPzi9BJjUJXH5+DtXFVlKahv72KrLxKD1FXWmcJ+69uND5e06+AbLkpIl5D5zj3gpQr45GA3gDcyPzLsKOhiucC/jokwRPXt8l2hNNZw1lf9nzwg2iKqZmORxDjil9iiORfG6852S+WGelgQIUNqwJ5IBXnXvgs4S4kZkLlFJVC+zBt/MzsKwyzG4jsoKjA5QHXY5dGxOHRJVqoPU/gp/0mwB4uEUrNioJUA9OUxG5fkEOmtQNNp5ywTE8pLj9ShV1nEHt6BANQ7vcSqq5NUYFrFqHzZ4tR1aNxaP6ljydV5dTQlVKRzpdg7dORAuqFNDWS9hOV5dtsfPN9L+JB645BkWt0oVsXQMDk5sLlYylbSdgFqccCZ3/ETiWc5ioGTi2f2ebEBLT1Egj7T6qnXV5337oO16IJNUo0DUtVbGl3b8T/VypEUYQ9u3GYeUsuYrWOnj01KOtsOXkL30MiB7Q8fLEsaO9ufdHV5QCizkNAJS8N/NUvEfdsFOppaFHm215nuBhlZxbM"
-      }
-    }
-  ],
-  "npmrc": "@frmscoe:registry=https://npm.pkg.github.com/"
+  "encrypted": {
+    "npmToken": "wcFMA/xDdHCJBTolAQ/8CDBCSk3bYKr/RZGEJNvVXh9PGgO0o5nhrGYhtwwMYtutoXhxaoOms5oTK0wQqpy65gCPv7kuLOZoqQqwiUfwI+yo3JzeUM4Vwu0Pw/fU4Srf4VNK0k+675X0E4U0lLcE2r1vfarjgZUU/Nefot5VJQii00Y54nTl5RwOD1Dak9YuapbZd5/B8jh1zA1vfacOiX4eCXZDIse0W53sCyBenrIga0Wm6himzrQEi8Oi8gBTzc0yGG1oH6bNMjABNXR6Fc2wu+x+67fdoBKEN+tLm0mbXDgxfPzAbRx9gcH3k/vQC5f2VlJW6mGOBbBFaLy7PsqrWHDd66rxzVQHmWnkubmu8JtmTyvjk5XoBd93ewAa5OQ0GFdYc6j4WV4EzhG4rxFm9bcl5MEurTye/ajtg4Z2BvsT3lEzxTigIIA54qdXQYcCUJLs2fCOxs5ht/qcTz2F6szRTa/NuOF5OIdvFgjNiLzTnUEmR/lS/9w2vBtX/rN7gpeZLIyGG8ZqFXO+jtWUX0SOuSEpUCgwjsCiJpNnQqSvjac9I2tnp2cDiBlIq3iVd9opEdH/50Z5mVUvBA7Zkgo6vUSVJY+aQHi8Lr4kPofsUUtJP4hqykN71O+M74qTqIxhoNfb8eGAt+EXTSc8Sn7g+fuxUwpa6c4UClxWRO7idi1Vpr/VT1YuREvSdwFVBMelITtVeawijrWIl/8vkANx3BNVxYXNw1b0mB1KmvTYUPMPKSs1v8WAq9gBRKnBZE03hp5TtuFgEdeY7iZtgQjl5Gb8ZkT39UsNKhYyMmtQTPAbdZEFYf75g9aYRhnU6HUmZIe/65E2xIosKQkNUxtyu8kS"
+  },
+  "npmrc": "@frmscoe:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}"
 }
