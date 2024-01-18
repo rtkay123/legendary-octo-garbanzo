@@ -14,9 +14,30 @@
     },
     {
       "matchPackagePatterns": [
+        "actions/"
+      ],
+      "groupName": "github-actions"
+    },
+    {
+      "matchPackagePatterns": [
         "fastify"
       ],
       "groupName": "fastify"
+    },
+    {
+      "automerge": true,
+      "matchCurrentVersion": ">= 1.0.0",
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ]
     }
-  ]
+  ],
+  "automergeType": "pr",
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  }
 }
