@@ -45,5 +45,9 @@
   },
   "patch": {
     "automerge": true
-  }
+  },
+  "encrypted": {
+    "npmToken": "wcFMA/xDdHCJBTolAQ/8Dse95Jet7wkBxb5mH68E1OBm7alH3LYeRD/7Pq3dkzhx54xeVkFp7ipZ4RIkshU841zYHc16QPi5a7R/CE47yTwxbs6c5X/TZs8x8ppQvMc1IjjbpZ7G8Y6Q+5vD7kdv9c/uiiFAMRmSQzzhGdpbFpqCy1AqwO89zgHV97YoxF5lLg5CQwf5AGgCsx8WakaQtVadqy0gG7rhAEh+psBs+aDaYewZsbAmfz0FssAEah6xgtTwaIgkxsbnt5VzPdpFhjtP5+2fNyHg0pdWauInVubdJUxjbE40pfPNqQtBv7PJ1oLr5fSMOAYH6AHleXBIiKhHYhfiDmRtnavYd6y6tR5bsJy7CQ+pcJ3PWvoztLF6Dp9Qdkz5k37WnQvsIs/i3H+Llvz9f1Re/3rqfuVYGeqSCCjrLAorUTMgXN1gipdk3axmVqKiWoM3oeYEoTSWNQmH6bxS0CvHN5MyzVaLkMGt5M8z9MkRxVLJdcW3wcwS4pnTDrEGhvKH+WRbO8p1luUG6ynblWEX7ZkcWd0VPLOVNOszGiyxwd7fQxm/GdBsQuED0vIdskV5pf3/0BA86D+Uu8l0S+jel9XF5izxH9Vk/0V9HIG75be0biMqOnG/3H0AbTICpvK9hr77jMi4xZacBUZqf5b0AWsoclm4Dm4zgVXfiTz+b+sA23raNYDSdgE1q/pNzBCm6PPg5Dr+h7d9FrqguCEQTIV463Su0s9XnHC7LSmHErUI9gafu1mh9f8JRUm00Yc/1owVMYDPa1HbZyi/LQ0x0IHCnxf7goagwSmAU1ka80ZbE9mt4u8gzuzU13p8HOcWChd1JgDbc0gwJupjRr8"
+  },
+  "npmrc": "@frmscoe:registry=https://npm.pkg.github.com\n//npm.pkg.github.com/:_authToken=${NPM_TOKEN}"
 }
