@@ -5,7 +5,7 @@
   ],
   "semanticCommits": "enabled",
   "reviewers": [
-    "@cshezi"
+    "@rtkay123"
   ],
   "rebaseWhen": "conflicted",
   "packageRules": [
