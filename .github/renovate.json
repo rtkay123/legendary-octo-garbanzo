@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "semanticCommits": "enabled",
+  "rebaseWhen": "conflicted",
+  "packageRules": [
+    {
+      "matchPackagePatterns": [
+        "eslint"
+      ],
+      "groupName": "eslint"
+    },
+    {
+      "matchPackagePatterns": [
+        "fastify"
+      ],
+      "groupName": "fastify"
+    }
+  ]
+}
