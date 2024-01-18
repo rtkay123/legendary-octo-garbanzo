@@ -11,7 +11,8 @@
   "packageRules": [
     {
       "matchPackagePatterns": [
-        "eslint"
+        "eslint",
+        "prettier"
       ],
       "automerge": true,
       "groupName": "eslint"
@@ -37,7 +38,6 @@
       ]
     }
   ],
-  "automergeType": "pr",
   "minor": {
     "automerge": true
   },
