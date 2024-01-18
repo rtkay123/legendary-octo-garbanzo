@@ -5,7 +5,8 @@
   ],
   "semanticCommits": "enabled",
   "reviewers": [
-    "@rtkay123"
+    "@rtkay123",
+    "@cshezi"
   ],
   "rebaseWhen": "conflicted",
   "packageRules": [
@@ -32,12 +33,12 @@
       "automerge": true
     },
     {
-      "automerge": true,
-      "matchCurrentVersion": ">= 1.0.0",
       "matchUpdateTypes": [
         "minor",
         "patch"
-      ]
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
     }
   ],
   "minor": {
