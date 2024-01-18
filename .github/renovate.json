@@ -4,6 +4,9 @@
     "config:recommended"
   ],
   "semanticCommits": "enabled",
+  "reviewers": [
+    "cshezi"
+  ],
   "rebaseWhen": "conflicted",
   "packageRules": [
     {
