@@ -12,6 +12,7 @@
     {
       "matchPackagePatterns": [
         "eslint",
+        "lint-staged",
         "prettier"
       ],
       "automerge": true,
